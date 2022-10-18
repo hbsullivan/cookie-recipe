@@ -12,17 +12,25 @@ window.onload = function() {
 // body.style.color = "white";
 // }
 
-let dark = document.getElementById('dark')
-
+let dark = document.getElementById('dark');
 dark.onclick = function() {
   document.body.style.backgroundColor = 'black';
   document.body.style.color = 'white';
 }
 
-let light = document.getElementById('light')
-
+let light = document.getElementById('light');
 light.onclick = function() {
   document.body.style.backgroundColor = 'white';
   document.body.style.color = 'black';
+}
+
+let original = document.getElementById('original');
+original.onclick = function() {
+  document.body.style.fontSize = "12px";
+}
+
+let large = document.getElementById('large');
+large.onclick = function() {
+  document.body.style.fontSize = "75px";
 }
 }
